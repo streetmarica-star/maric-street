@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
             for (let i = 0; i < data.length; i++) {
                 const item = data[i];
                 // ATENÇÃO: Verifique se o nome da coluna "Logradouro da Ocorrência" está EXATO
-                const address = item["Logradouro da Ocorrência"];
+                const address = item["Logradouro da ocorrência"];
 
                 if (address && address.trim() !== "") {
                     
@@ -143,3 +143,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
