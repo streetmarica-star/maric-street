@@ -30,7 +30,72 @@ A aplicação é composta por três arquivos principais, organizados na raiz do 
 
 . 
 ├── index.html # Estrutura principal, CSS de estilização e o código JavaScript (in-page script) completo. 
+
 ── README.md # Documentação do projeto. 
+
 └── ocorrencias.js # Script JavaScript para geocodificação e mapeamento (usado em versões separadas).
 
+## 🛠️ Tecnologias Utilizadas
+
+| Categoria | Tecnologia | Função | 
+ | ----- | ----- | ----- | 
+| **Front-end** | HTML5, CSS3, JavaScript (ES6+) | Estrutura, Estilização e Lógica de Processamento. | 
+| **Mapeamento** | [**Leaflet.js**](https://leafletjs.com/) | Biblioteca principal para renderização do mapa interativo. | 
+| **Geocodificação** | [**Nominatim (OpenStreetMap)**](https://nominatim.org/) | Serviço para conversão de endereços em coordenadas geográficas. | 
+| **Dados** | [**PapaParse.js**](https://www.papaparse.com/) | Parser de CSV para leitura rápida dos dados da Planilha Google. | 
+| **Plataforma** | Google Forms, Google Sheets, GitHub Pages | Coleta de dados, Armazenamento e Hospedagem. | 
+
+## 🎓 Informações Acadêmicas
+
+| Detalhe | Informação | 
+ | ----- | ----- | 
+| **Instituição** | Instituto Federal Fluminense (IFF), Campus Maricá | 
+| **Curso** | Técnico em Informática para Internet | 
+| **Disciplina** | Linguagem de Programação de Aplicações Móveis | 
+
+### Professor: Djones Braz de Araujo Costa
+
+Professor de Tecnologia da Informação (TI) no Instituto Federal Fluminense (IFF), Campus Avançado Maricá, atuando também pelo Programa Formatec +Maricá.
+
+**Formação e Pesquisa:**
+
+* Graduado em Analise e Desenvolvimento de Sistemas (UNESA).
+
+* Pós-graduado em Gestão de Projetos e Negócios em Tecnologia da Informação (IFRJ).
+
+* Mestrando em Computação (UFF).
+
+* Pesquisador no Laboratório de Projetos de Tecnologia da Informação, Negócios e Economia Criativa (LABPROJTNE) do IFRJ.
+
+* Suas áreas de pesquisa e estudo incluem: Educação em T.I, Tecnologia da Informação (T.I), Inteligência Artificial (I.A), Blockchain e Cidades Inteligentes.
+
+* **GitHub:** [@djones-braz](https://github.com/djones-braz)
+
+## 👨‍💻 Equipe (Grupo A – Maricá Street)
+
+* Guilherme Gil de Almeida Dantas
+
+* Caio Costa Ribeiro
+
+* Cauan Santos Rangel
+
+* Cauê Santiago Pinto da Paixão
+
+* Davi Souza Barbosa
+
+* Eduardo Brum Sampaio de Carvalho
+
+* Emilly Ismerio Dias
+
+* Isabelle Ramalho Feitosa
+
+* Isac Gama Sant' Ana
+
+* Ítalo Augusto Dias de Oliveira
+
+## 🔗 Links
+
+* **🗺️ Aplicação (Mapa):** [**https://streetmarica-star.github.io/maric-street/**](https://streetmarica-star.github.io/maric-street/)
+
+* **📝 Formulário de Registro:** [**https://docs.google.com/forms/d/e/1FAIpQLSdSXiy54n82-7ZMxWdNZ_cX2HrLLAcx6_fSdAum562tBG7mzA/viewform**](https://docs.google.com/forms/d/e/1FAIpQLSdSXiy54n82-7ZMxWdNZ_cX2HrLLAcx6_fSdAum562tBG7mzA/viewform)
 
