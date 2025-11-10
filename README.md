@@ -53,9 +53,9 @@ A aplicação é composta por três arquivos principais, organizados na raiz do 
 | **Curso** | Técnico em Informática para Internet | 
 | **Disciplina** | Linguagem de Programação de Aplicações Móveis | 
 
-### Professor: Djones Braz de Araujo Costa
+## 🎓 Professor: Djones Braz de Araujo Costa
 
-Professor de Tecnologia da Informação (TI) no Instituto Federal Fluminense (IFF), Campus Avançado Maricá, atuando também pelo Programa Formatec +Maricá.
+Professor de Tecnologia da Informação (TI) no Instituto Federal Fluminense (IFF), Campus Avançado Maricá no Programa Formatec +Maricá.
 
 **Formação e Pesquisa:**
 
