@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // URL de publicação direta da sua planilha
-    const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRDTtaJJh_GXdGQCZdBXc9YjvDuvJGDcuU3T0XVkR8-knVRiTKIGYc7dD3TSC2cgyj5DF_tLR5wBBW1/pub?gid=415255226&single=true&output=csv';
+    const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSK2OnClNufKGaIx41JH0C_x7l7OIOI2OivxhiftGLBX91Q74EhvWRK2lpGOvqggSZT-tWR-jkLw1e9/pub?gid=342798418&single=true&output=csv';
     const urlComCacheBuster = `${sheetUrl}&t=${new Date().getTime()}`;
 
     // Centraliza o mapa na sua cidade
@@ -69,4 +69,5 @@ document.addEventListener("DOMContentLoaded", function() {
             alert(`Erro ao carregar os dados da planilha. Detalhe: ${error.message}`);
         }
     });
+
 });
