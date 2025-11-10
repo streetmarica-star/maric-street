@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Função para converter endereço em coordenadas (Geocodificação)
     async function geocodeAddress(address) {
         try {
-            // Adicionamos ", Cachoeiras de Macacu, RJ" para tornar a busca mais precisa
-            const fullAddress = `${address}, Cachoeiras de Macacu, RJ`;
+            // Adicionamos ", Maricá, RJ" para tornar a busca mais precisa
+            const fullAddress = `${address}, Maricá, RJ`;
             const geoUrl = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(fullAddress)}`;
             
             const response = await fetch(geoUrl);
@@ -71,3 +71,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
+
