@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const urlComCacheBuster = `${sheetUrl}&t=${new Date().getTime()}`;
 
     // Centraliza o mapa na sua cidade
-    const map = L.map('map').setView([-22.4640, -42.6534], 13);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+const map = L.map('map').setView([-22.9189, -42.8189], 13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
 
     // Função para converter endereço em coordenadas (Geocodificação)
     async function geocodeAddress(address) {
@@ -71,4 +71,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
+
 
