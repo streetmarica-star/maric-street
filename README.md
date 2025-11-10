@@ -29,6 +29,7 @@ A arquitetura do projeto é baseada em ferramentas gratuitas e de fácil integra
 A aplicação é composta por três arquivos principais, organizados na raiz do repositório:
 
 . 
+
 ├── index.html # Estrutura principal, CSS de estilização e o código JavaScript (in-page script) completo. 
 
 ── README.md # Documentação do projeto. 
